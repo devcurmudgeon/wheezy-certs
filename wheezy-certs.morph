@@ -1,0 +1,5 @@
+name: wheezy-certs
+kind: chunk
+install-commands:
+- mkdir -p "$DESTDIR/etc/ssl/certs"
+- cp -r certs/* "$DESTDIR/etc/ssl/certs" 
